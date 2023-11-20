@@ -21,6 +21,7 @@ new->next = NULL;
 
 if (*head == NULL)
 {
+*head = new;
 return (new);
 }
 
